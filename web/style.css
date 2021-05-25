@@ -1,0 +1,65 @@
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
+
+.formulario{
+    
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    
+}
+#grid-line {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto; /* 3 COL LAYOUT */
+  grid-gap: 10px;
+}
+ 
+.green {
+  border: 5px solid green;
+  padding: 10px;
+}
+
+.red {
+  border: 5px solid red;
+  padding: 10px;
+}
+
+.imagen2{
+    width: 150px;
+    height: 250px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    mix-blend-mode: hard-line;
+    opacity: 1;
+}
+
+.horizontal{
+    display:inline-block;
+    margin: 7px;
+}
+
+.main{
+background-image: url('road.jpeg');
+}
+
+.main2{
+background-image: url('back3.jpeg');
+}
+
+.dark-background{
+color: white;
+}
+
+.num-plazas{
+margin-bottom: 0px;
+}
